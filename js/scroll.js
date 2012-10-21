@@ -1,8 +1,12 @@
 (function($) {
 
-  $.fn.scrollNav = function() {
+  $.fn.scrollNav = function(opts) {
     //fix bootstrap bug when navbar is fixed positioned
-    $(document.body).append("<style type='text/css'> @media(max-width: 767px) { .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top { margin-right: 0; margin-left: 0;} }</style>");
+    if(opts) {    
+      if(opts.bootstrap_mobile) {
+        $(document.body).append("<style type='text/css'> @media(max-width: 767px) { .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top { margin-right: 0; margin-left: 0;} }</style>");
+      }
+    }
 
     var
       window_scroll = $(window).scrollTop(),
