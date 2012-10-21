@@ -10,6 +10,14 @@ works best with BootStrap based websites, but can
 easily be dropped into any site with a fixed or 
 static navbar.  
 
+ScrollNav will make your navbar act as a static 
+navbar when scrolling down the page, and an absolutly
+positioned navbar that was just out of sight when scrolling
+up the page. Once the navbar is in full view, it will act as
+a fixed element at the top of the page. 
+
+You can view a demo [here](http://dymk.github.com/demo.html) 
+
 Usage
 ------
 Given this markup:
