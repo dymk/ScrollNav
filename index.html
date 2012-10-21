@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Scrollnav : ScrollNav jQuery Plugin" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Scrollnav</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/dymk/ScrollNav">View on GitHub</a>
+
+          <h1 id="project_title">Scrollnav</h1>
+          <h2 id="project_tagline">ScrollNav jQuery Plugin</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/dymk/ScrollNav/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/dymk/ScrollNav/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>ScrollNav jQuery Plugin</h1>
+
+<h2>About</h2>
+
+<p>ScrollNav is a small, lightweight jQuery plugin 
+for adding an auto-hiding navbar to websites. It 
+works best with BootStrap based websites, but can
+easily be dropped into any site with a fixed or 
+static navbar.  </p>
+
+<h2>Usage</h2>
+
+<p>Given this markup:</p>
+
+<div class="highlight"><pre><span class="nt">&lt;html&gt;</span>
+  <span class="c">&lt;!-- jQuery/ScrollNav JS includes --&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"navbar"</span> <span class="na">style=</span><span class="s">"position: fixed;"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"brand"</span><span class="nt">&gt;</span>Navbar Example<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;ul&gt;</span>
+        <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"www.google.com"</span><span class="nt">&gt;</span>Obscure Website<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"www.reddit.com"</span><span class="nt">&gt;</span>Time Sinks<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+      <span class="nt">&lt;/ul&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</pre></div>
+
+<p>The resulting call to the ScrollNav plugin would be such:</p>
+
+<div class="highlight"><pre><span class="nx">$</span><span class="p">(</span><span class="s2">"#myNavBar"</span><span class="p">).</span><span class="nx">scrollNav</span><span class="p">();</span>
+</pre></div>
+
+<p>If you were using a static navbar, add the navbar's height in padding
+to the top of the document body (to avoid the navbar overlapping body
+content).</p>
+
+<h2>Bootstrap Compatibility</h2>
+
+<p>Given that I originaly wrote the plugin with Bootstrap in mind, it 
+should work just dropped into place when used with a bootstrap navbar.
+Mobile compatibility took an ugly hack (namley injecting a bit of
+css into the DOM), but it works. 
+To enable bootstrap mobile compatibility, call the plugin with</p>
+
+<div class="highlight"><pre><span class="nx">$</span><span class="p">(</span><span class="s2">"#myNavBar"</span><span class="p">).</span><span class="nx">scrollNav</span><span class="p">({</span><span class="s2">"bootstrap_mobile"</span><span class="o">:</span> <span class="kc">true</span><span class="p">});</span>
+</pre></div>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Scrollnav maintained by <a href="https://github.com/dymk">dymk</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
