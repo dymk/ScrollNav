@@ -16,7 +16,7 @@ positioned navbar that was just out of sight when scrolling
 up the page. Once the navbar is in full view, it will act as
 a fixed element at the top of the page. 
 
-You can view a demo [here](http://dymk.github.com/ScrollNav/demo.html) 
+You can view a demo [here](demo.html) 
 
 Usage
 ------
