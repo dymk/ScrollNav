@@ -33,6 +33,10 @@ The resulting call to the ScrollNav plugin would be such:
 $("#myNavBar").scrollNav();
 ```
 
+If you were using a static navbar, add the navbar's height in padding
+to the top of the document body (to avoid the navbar overlapping body
+content).
+
 Bootstrap Compatibility
 -----------------------
 Given that I originaly wrote the plugin with Bootstrap in mind, it 
