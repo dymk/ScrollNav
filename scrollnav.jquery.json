@@ -1,0 +1,33 @@
+{
+    "name": "scrollnav",
+    "title": "ScrollNav",
+    "description": "Easy auto-hiding and showing of the navigation bar as the user scrolls.",
+    "keywords": [
+        "scrolling",
+        "scroll",
+        "navigation"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Dylan Knutson"
+    },
+    "maintainers": [
+        {
+            "name": "Dylan Knutson",
+            "email": "tcdknutson@gmail.com",
+            "url": "https://github.com/dymk/"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+        }
+    ],
+    "homepage": "https://github.com/dymk/ScrollNav",
+    "docs": "https://github.com/dymk/ScrollNav",
+    "download": "https://github.com/dymk/ScrollNav",
+    "dependencies": {
+        "jquery": ">=1.4"
+    }
+}
