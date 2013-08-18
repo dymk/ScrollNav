@@ -9,7 +9,8 @@
     ],
     "version": "1.0.0",
     "author": {
-        "name": "Dylan Knutson"
+        "name": "Dylan Knutson",
+        "email": "tcdknutson@gmail.com"
     },
     "maintainers": [
         {
@@ -27,6 +28,7 @@
     "homepage": "https://github.com/dymk/ScrollNav",
     "docs": "https://github.com/dymk/ScrollNav",
     "download": "https://github.com/dymk/ScrollNav",
+    "demo": "http://dymk.github.io/ScrollNav/demo.html",
     "dependencies": {
         "jquery": ">=1.4"
     }
