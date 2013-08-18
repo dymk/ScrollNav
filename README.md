@@ -4,19 +4,19 @@ ScrollNav jQuery Plugin
 About
 -----
 
-ScrollNav is a small, lightweight jQuery plugin 
-for adding an auto-hiding navbar to websites. It 
+ScrollNav is a small, lightweight jQuery plugin
+for adding an auto-hiding navbar to websites. It
 works best with BootStrap based websites, but can
-easily be dropped into any site with a fixed or 
-static navbar.  
+easily be dropped into any site with a fixed or
+static navbar.
 
-ScrollNav will make your navbar act as a static 
+ScrollNav will make your navbar act as a static
 navbar when scrolling down the page, and an absolutly
 positioned navbar that was just out of sight when scrolling
 up the page. Once the navbar is in full view, it will act as
-a fixed element at the top of the page. 
+a fixed element at the top of the page.
 
-You can view a demo [here](demo.html) 
+You can view a demo [here](http://dymk.github.io/ScrollNav/demo.html)
 
 Usage
 ------
@@ -47,10 +47,10 @@ content).
 
 Bootstrap Compatibility
 -----------------------
-Given that I originaly wrote the plugin with Bootstrap in mind, it 
+Given that I originaly wrote the plugin with Bootstrap in mind, it
 should work just dropped into place when used with a bootstrap navbar.
 Mobile compatibility took an ugly hack (namley injecting a bit of
-css into the DOM), but it works. 
+css into the DOM), but it works.
 To enable bootstrap mobile compatibility, call the plugin with
 
 ```javascript
