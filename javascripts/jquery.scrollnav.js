@@ -47,7 +47,7 @@
         if(navbar_visible == navbar_height) {
           //navbar currently is totally visible, and has fixed positioning set
           //set to abs positioning so it begins to go out of frame
-          navbar.css({"position": "absolute", "top": window_scroll + "px"});
+          navbar.css({"position": "absolute", "top": Math.max(window_scroll, 0) + "px"});
         }
         //else:
         //navbar will be partially visible, let abs positioning move it
